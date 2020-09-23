@@ -2,7 +2,11 @@
 
 Shamelessly adapted from https://www.tweaking4all.com/hardware/arduino/adruino-led-strip-effects/
 
-'''yaml
+##Fire Effect 
+
+Make sure to change the heat[255] to a number greater than the number of led's in your string, otherwise you will crash.
+
+```yaml
 - addressable_lambda:
     name: "Fire"
     update_interval: 15ms
@@ -53,4 +57,4 @@ Shamelessly adapted from https://www.tweaking4all.com/hardware/arduino/adruino-l
             it[j] = light::ESPColor(heatramp, 0, 0);
           }
       }
-'''
+```
