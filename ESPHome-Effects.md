@@ -1,8 +1,8 @@
-## ESPHome Effects
+# ESPHome Effects
 
 Shamelessly adapted from https://www.tweaking4all.com/hardware/arduino/adruino-led-strip-effects/
 
-##Fire Effect 
+## Fire Effect 
 
 Make sure to change the heat[255] to a number greater than the number of led's in your string, otherwise you will crash.
 
